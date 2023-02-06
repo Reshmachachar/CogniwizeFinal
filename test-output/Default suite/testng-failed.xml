@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.cw.TestCases.CareersTest">
+        <methods>
+          <include name="TC21_ContactUsLink"/>
+          <include name="TC14_ClickOn5Year"/>
+          <include name="TC20_ContactUsLinkHoverOn"/>
+          <include name="TC15_PuneLocation"/>
+          <include name="TC18_InValidSearch"/>
+          <include name="TC22_NavigationOfContactUsLink"/>
+          <include name="TC17_ValidSearch"/>
+        </methods>
+      </class> <!-- com.cw.TestCases.CareersTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
